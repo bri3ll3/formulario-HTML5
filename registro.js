@@ -36,9 +36,9 @@ function iniciar() {
 	fechaInicio    = document.getElementById('fechaInicio');
 	registroSubmit = document.getElementById('registro-submit');
 
-	password1.addEventListener('input', validarPasswords, false);
-	password2.addEventListener('input', validarPasswords, false);
-	registroSubmit.addEventListener('click', enviar, false);
+	password1.addEventListener('input', validarPasswords, true);
+	password2.addEventListener('input', validarPasswords, true);
+	registroSubmit.addEventListener('click', enviar, true);
 }
 
-window.addEventListener('load', iniciar, false);
+window.addEventListener('load', iniciar, true);
