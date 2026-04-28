@@ -3,9 +3,7 @@ var registro, password1, password2, fechaInicio, registroSubmit;
 function validarPasswords() {
 	if (password1.value !== password2.value) {
 		password2.setCustomValidity('Las passwords deben coincidir');
-	} else {
-		password2.setCustomValidity('');
-	}
+	} 
 }
 
 
